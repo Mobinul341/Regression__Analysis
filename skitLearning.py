@@ -17,6 +17,7 @@ x = df[['Interest_Rate', 'Unemployment_Rate']].astype(float) # here we have 2 in
 
 y = df['Stock_Index_Price'].astype(float) # output variable (what we are trying to predict)
 
+#1st block to run
 from sklearn import linear_model
 
 regres = linear_model.LinearRegression()
@@ -25,6 +26,7 @@ print('Intercept: %.3f\n'%regres.intercept_)
 print('Coefficients: \n',regres.coef_)
 
 
+#2nd block to run
 import statsmodels.api as sm
 
 x = sm.add_constant(x, prepend = False)
