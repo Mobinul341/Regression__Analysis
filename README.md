@@ -2,6 +2,8 @@
 This is the program from the course ASDS04 - Introduction to Data science with Python.
 
 #Goriber_Try
+
+
 This program is about Linear regression with 2 popular libraries on python. First library is ScikitLearn. We called Linear_model from scikitlearn by importing this,
 
 from sklearn import linear_model
