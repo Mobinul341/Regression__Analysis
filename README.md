@@ -25,5 +25,8 @@ conda install -c conda-forge statsmodels
 This program has used add__constant(), OLS(), fit(), summary() - these methods. To study in details, visit the URL-
 https://www.statsmodels.org/stable/gettingstarted.html
 
+Run only the portions of 1st block and 2nd block by pressing F9 button. What is 1st block and 2nd block, see the code comment please. 
+
 Also check the comments inside the program to understand why here is used multiple regression and how to analyze single regression.
 Hope it helps, happy pythonning
+
